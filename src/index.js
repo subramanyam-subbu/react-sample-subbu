@@ -13,5 +13,8 @@ root.render(
     {/* <App /> */}
 
     {<ClassComponentLifeCycle /> }
+
+    { <SimpleFunctionalComponent name="Benz" model="111"></SimpleFunctionalComponent> }
+
   </StrictMode>
 );
