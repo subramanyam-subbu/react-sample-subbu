@@ -4,6 +4,7 @@ import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import ClassComponentLifeCycle from './ClassComponentLifeCycle';
 import SimpleFunctionalComponent from './SimpleFunctionalComponent';
+import read from './CRUD/read';
 import App from './App';
 
 const rootElement = document.getElementById('root');
@@ -13,8 +14,14 @@ root.render(
   <StrictMode>
     {/* <App /> */}
 
-    {//<ClassComponentLifeCycle />}
+    {/* {<ClassComponentLifeCycle />} */}
 
-    <//SimpleFunctionalComponent name="Benz" model="111" />
+    {/* <SimpleFunctionalComponent name="Benz" model="111" /> */}
+
+    <read/>
+
+
+
+
   </StrictMode>
 );
