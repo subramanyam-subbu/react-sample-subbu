@@ -12,6 +12,7 @@ import SimpleFunctionalComponent from './SimpleFunctionalComponent';
 //import { BrowserRouter } from 'react-router-dom';
 //import RoutingMain from './Routing/RoutingMain';
 //import Menu from './Routing/Menu';
+import Read from './CRUD/read';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -38,6 +39,8 @@ root.render(
       <RoutingMain></RoutingMain>
       
     </BrowserRouter> */}
+
+    <Read/>
   
   </React.StrictMode>
 );
