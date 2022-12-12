@@ -12,36 +12,37 @@ import SimpleFunctionalComponent from './SimpleFunctionalComponent';
 //import { BrowserRouter } from 'react-router-dom';
 //import RoutingMain from './Routing/RoutingMain';
 //import Menu from './Routing/Menu';
-import Read from './CRUD/read';
+//import Read from './CRUD/read';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    
     {/* <Home role="admin"></Home> */}
 
     {/* { <SimpleFunctionalComponent name="Benz" model="111"></SimpleFunctionalComponent> } */}
 
-    {/* {<ClassComponentLifeCycle ></ClassComponentLifeCycle> } */}
+    <ClassComponentLifeCycle></ClassComponentLifeCycle>
 
-    {/*<ClassComponentLifeCycle name="Arun" model="Samsung A7" ></ClassComponentLifeCycle> */}
-    
-    {/* <App /> */}
+    {/* <ClassComponentLifeCycle name="Arun" model="Samsung A7" ></ClassComponentLifeCycle> */}
+
+    {/* {<App />} */}
 
     {/* <UsingMapFunction></UsingMapFunction> */}
 
     {/* <ComponentWithStyles></ComponentWithStyles> */}
-    
-    {/* {<BrowserRouter>}
+
+    <Read/>
+
+    <BrowserRouter>
     
       <Menu></Menu>
       <RoutingMain></RoutingMain>
       
-    </BrowserRouter> */}
+    </BrowserRouter>
 
-    <Read/>
-  
+   
+
   </React.StrictMode>
 );
 
